@@ -1,0 +1,469 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+body {
+  background-color: #F3F3F3;
+}
+
+.w {
+  max-width: 640px;
+  margin: 0 auto;
+  display: block;
+}
+
+header.header {
+  width: 100%;
+  height: 39px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 0;
+  z-index: 11;
+}
+
+header.header .jd-search-tb {
+  margin: 0 10px;
+  position: relative;
+  line-height: 39px;
+}
+
+header.header .jd-search-tb form {
+  padding-right: 36px;
+}
+
+header.header .jd-search-tb form .form-box {
+  position: relative;
+  background: white;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  height: 29px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+header.header .jd-search-tb form .logo-jd {
+  background: url("../images/icon/下载.png") no-repeat;
+  width: 18px;
+  height: 13px;
+  display: inline-block;
+  background-size: 18px 13px;
+  position: relative;
+  left: 8px;
+  top: 8px;
+  vertical-align: middle;
+  float: left;
+  margin-right: 7px;
+}
+
+header.header .jd-search-tb form .form-icon {
+  background: url("../images/icon/下载 (1).png") no-repeat right center;
+  background-size: 12px 12px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  position: relative;
+  top: 9px;
+  float: left;
+  margin: 0 5px 0 10px;
+}
+
+header.header .jd-search-tb form .form-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-left: 53px;
+  padding-right: 10px;
+  font-size: 0;
+  height: 100%;
+}
+
+header.header .jd-search-tb form .form-input input {
+  border: 0;
+  display: inline-block;
+  background: 0;
+  font-size: 12px;
+  height: 16px;
+  width: 100%;
+  line-height: 16px;
+  margin-top: 0;
+  outline: none;
+  color: #666;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+header.header .jd-search-tb .login {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+}
+
+header.header .jd-search-tb .login a {
+  color: #fff;
+}
+
+.focus {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.focus img {
+  width: 100%;
+}
+
+.focus .swiper-pagination-bullet {
+  width: 0.09375rem;
+  height: 0.09375rem;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  background: transparent;
+}
+
+.focus .swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+nav.quick-nav {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F3F3F3;
+}
+
+nav.quick-nav a {
+  display: block;
+  width: 20%;
+  height: 1.67188rem;
+  font-size: 0.34375rem;
+}
+
+nav.quick-nav a > span {
+  margin: 0.24375rem 0;
+  display: block;
+  text-align: center;
+}
+
+nav.quick-nav a img {
+  width: 0.90625rem;
+}
+
+.jd-express-news {
+  margin: 0 8px 0.125rem;
+  height: 30px;
+  font-size: 0.1875rem;
+  -moz-border-radius: 0.09375rem;
+  -webkit-border-radius: 0.09375rem;
+  border-radius: 0.09375rem;
+  background-color: #fff;
+  padding: 0 0.07813rem;
+  position: relative;
+}
+
+.jd-express-news .title {
+  width: 73px;
+  height: 16px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  display: block;
+}
+
+.jd-express-news .title img {
+  width: 100%;
+}
+
+.jd-express-news .news-list-wrapper {
+  padding: 0 42px 0 75px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.jd-express-news .news-list-wrapper ul {
+  position: absolute;
+  top: 0;
+  left: 73px;
+}
+
+.jd-express-news .news-list-wrapper ul li {
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+}
+
+.jd-express-news .news-list-wrapper ul li a strong {
+  color: #F55C5C;
+}
+
+.jd-express-news .jd-news-more {
+  font-size: 12px;
+  color: #181818;
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  line-height: 16px;
+}
+
+.jd-express-news .jd-news-more i {
+  background: #ececec;
+  width: 1px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.sliderbar {
+  position: fixed;
+  height: 50px;
+  z-index: 28;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 rgba(155, 143, 143, 0.6);
+  -webkit-box-shadow: 0 0 10px 0 rgba(155, 143, 143, 0.6);
+  -moz-box-shadow: 0 0 10px 0 rgba(155, 143, 143, 0.6);
+}
+
+.sliderbar ul li {
+  text-align: center;
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+
+.sliderbar ul li span {
+  display: inline-block;
+  width: 65px;
+  height: 100%;
+  position: relative;
+  z-index: 20;
+}
+
+.sliderbar ul li span img {
+  width: 100%;
+}
+
+section.hotms {
+  width: 100%;
+  font-size: 0;
+  position: relative;
+}
+
+section.hotms .seckill-floor {
+  box-shadow: 0 1px 1px #f2f2f2;
+  background: #fff;
+}
+
+section.hotms .seckill-floor .title-wrap {
+  height: 34px;
+  line-height: 34px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.hotms .seckill-left-link {
+  display: block;
+  display: flex;
+}
+
+section.hotms .seckill-left-link img {
+  display: inline-block;
+  width: 69px;
+  height: 27px;
+  margin-right: 6px;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+section.hotms .seckill-left-link .seckill-nth {
+  font-size: 12px;
+  color: #232326;
+  font-weight: bold;
+  display: inline-block;
+}
+
+section.hotms .seckill-left-link .seckill-timer {
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+}
+
+section.hotms .seckill-left-link .seckill-time {
+  width: 18px;
+  line-height: 17px;
+  color: #232326;
+  font-size: 12px;
+  position: relative;
+  height: 16px;
+  border: 1px solid #ddd;
+}
+
+section.hotms .seckill-left-link .seckill-time-separator {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  height: 16px;
+  font-size: 12px;
+  text-align: center;
+  color: #232326;
+  width: 6px;
+}
+
+section.hotms .seckill-more-link {
+  width: 32%;
+  display: inline-block;
+  color: #f23030;
+  font-size: 10px;
+  text-align: right;
+  position: relative;
+  padding-right: 22px;
+  width: 100px;
+}
+
+section.hotms .seckill-more-icon {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url("../images/icon/arrow_rt.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 8px;
+  top: 11px;
+}
+
+.seckill-slider {
+  width: 100%;
+  height: 152px;
+  overflow: hidden;
+  font-size: 0;
+  overflow-x: auto;
+}
+
+.seckill-slider ul {
+  position: relative;
+  background-color: #fff;
+  height: 135px;
+  width: 565px;
+}
+
+.seckill-slider .seckill-new-item {
+  float: left;
+  width: 103px;
+  height: 135px;
+}
+
+.seckill-slider .seckill-new-item .seckill-item-img {
+  padding: 0 11px;
+  min-height: 60px;
+  font-size: 0;
+  border-right: 1px solid #eee;
+}
+
+.seckill-slider .seckill-new-item .seckill-item-img .seckill-new-link {
+  position: relative;
+}
+
+.seckill-slider .seckill-new-item .seckill-item-img img {
+  width: 100%;
+}
+
+.seckill-slider .seckill-new-item .seckill-item-img .seckill-tip {
+  font-size: 11px;
+  height: 13px;
+  line-height: 12px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 3px;
+  overflow: hidden;
+  width: auto;
+}
+
+.seckill-slider .seckill-new-item .seckill-item-img .hide {
+  display: none;
+}
+
+.seckill-slider .seckill-item-price {
+  padding: 0 11px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.seckill-slider .seckill-new-price {
+  margin-top: 11px;
+  display: block;
+  color: #f23030;
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.seckill-slider .seckill-original-price {
+  color: #686868;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 4px 0 11px 0;
+  text-align: center;
+  display: block;
+  padding: 0 2px;
+  display: inline-block;
+  position: relative;
+  text-decoration: line-through;
+}
+
+.seckill-slider .seckill-all-item {
+  width: 31px;
+  padding-left: 11px;
+  height: 72px;
+  float: left;
+}
+
+.seckill-slider .seckill-all-item .seckill-all {
+  width: 20px;
+  height: 72px;
+  background-color: #f5f5f5;
+  color: #666;
+  font-size: 10px;
+  padding: 8px 0;
+}
+
+.seckill-slider .seckill-all-item .show-all-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/icon/jd-sprites.png") -107px -109px no-repeat;
+  background-size: 200px 200px;
+  display: block;
+  margin: 0 4px 3px 4px;
+}
+
+.seckill-slider .seckill-all-item .show-all-title {
+  margin: 0 5px;
+  display: block;
+}
+
+.bottomw {
+  display: block;
+  height: 50px;
+  width: 100px;
+}
